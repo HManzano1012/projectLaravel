@@ -16,9 +16,9 @@ class cursoSeeder extends Seeder
     {
         $curso = new Curso();
 
-        $curso->name("Laravel");
-        $curso->description("el mejor framework PHP");
-        $curso->categoria("Programacion web");
+        $curso->name = "Laravel";
+        $curso->description = "el mejor framework PHP";
+        $curso->categoria = "Programacion web";
 
         $curso->save();
     }
